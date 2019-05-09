@@ -1,0 +1,202 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:"Helvetica", sans-serif;
+    background-color:#000;
+    color:#fff;
+}
+
+.container {
+    width:768px;
+    height:1024px;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 491px;
+}
+
+
+.header {
+    background-color:#000;
+    height:60px;
+/*    width:100%;*/
+}
+
+
+.analysis {
+    position: absolute;
+    z-index:20;
+    top: 43px;
+    left: 148px;
+}
+
+
+/* Letter & Button */
+.letter-container {
+    width:491px;
+    display:flex;
+    align-items:baseline;
+}
+
+.large-letter {
+    font-weight: 900;
+    font-size:449px;
+    margin-left:31.28px;
+    margin-right:13.55px;
+    margin-top: -60px;
+}
+
+#button {
+    width: 66px;
+    height: 66px;
+    background-color: #fd753f;
+    margin-right:31.28px;
+    border-radius: 50%;
+    z-index:30;
+}
+
+/* Sample Set */
+.sample-set {
+    font-size:48px;
+    line-height:56px;
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+.overflow {
+    overflow-x:visible; 
+    overflow-y: hidden;
+    clear: both;
+    letter-spacing: 20px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+/* Body */
+.body {
+    margin-top:36px;
+    margin-bottom: 52px;
+}
+
+.body h2 {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 6px;
+    color:#fd753f;
+}
+
+
+.letter-container h1 {
+    font-weight:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+/* Footer */
+.photo-title {
+    width:300px;
+}
+
+.bar-photo {
+    width:94px;
+    height:110px;
+    float:left;
+    margin-right: 12px;
+}
+
+.bar {
+    height:16px;
+    background-color:#000;
+}
+
+.my-photo {
+    width:94px;
+    height:94px;
+    background-image:url(instructor-photo.jpg);
+}
+
+.title,
+.sources    {
+    font-family: "acumin-pro-condensed";
+}
+
+.title {
+    width:100px;
+    float:left;
+}
+
+.title h3 {
+    font-size:13.333px;
+    font-weight:700;
+    margin-top:0px;
+    margin-bottom:3px;
+    color:#fd753f;
+    
+}
+
+.title p {
+    font-size:13.333px;
+    font-weight:100;
+    margin:0;
+}
+
+.sources {
+    width: 255px;
+    margin-left: 30px;
+    float: left;
+}
+
+.sources h3 {
+    font-size:10.6667px;
+    font-weight:700;
+    line-height:18.6667px;
+    margin-top:0px;
+    margin-bottom:3px;
+    color:#fd753f;
+}
+
+.sources p {
+    font-size:10.6667px;
+    font-weight:100;
+    line-height:18.6667px;
+    margin-top: 0px;
+}
+
+.sources p:first-child {
+    margin-bottom:12px;
+}
+
+a {
+    text-decoration:none;
+    color:#87a7d7;
+}

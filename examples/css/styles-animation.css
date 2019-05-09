@@ -1,0 +1,201 @@
+body {
+    color: #414141;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
+    font-size:18px;
+    margin-left:auto;
+    margin-right:auto;
+    width:50vw;
+    padding:20px;
+}
+
+
+
+
+
+
+
+/* Shapes */
+
+.circle {
+    background-color:yellowgreen;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top:100px;
+    animation: bounce 4s infinite;
+}
+
+.circle2 {
+    background-color:yellowgreen;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top:100px;
+    animation: colorchange-infinite 4s infinite;
+}
+
+.circle3 {
+    background-color:yellowgreen;
+    width:100px;
+    height:100px;
+    border-radius: 10%;
+    margin-top:100px;
+    position: relative;
+    opacity:1;
+}
+
+.circle4 {
+    background-color: purple;
+    height:5px;
+    width:5px;
+}
+
+
+.square {
+    background-color:yellowgreen;
+    width:100px;
+    height:100px;
+    margin-top:100px;
+    animation: rotation 4s infinite;
+}
+
+
+
+.triangle-up {
+    width: 0px;
+    height: 0px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid mediumvioletred;
+    margin-top:100px;
+    animation: grow 10s;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid yellowgreen;
+    margin-top:100px;
+    position:absolute;
+    top:100px;
+    animation: lefttoright 4s infinite;
+}
+
+.triangle2 {
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid mediumvioletred;
+    margin-top:100px;
+    position:absolute;
+/*    top:300px;*/
+    animation: lefttoright-2 4s infinite;
+}
+
+.triangle3 {
+    width: 0px;
+    height: 0px;
+    margin-bottom:200px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid red;
+    margin-top:100px;
+    position:absolute;
+    top:500px;
+    animation:  
+/*        lefttoright-2 4s infinite,*/
+        rotation-infinite 4s infinite;
+        
+}
+
+/* Animations */
+
+@keyframes colorchange {
+    from {background-color: yellowgreen;}
+    to {background-color: mediumvioletred;}
+}
+
+@keyframes colorchange-infinite {
+    0% {background-color: yellowgreen;}
+    50% {background-color: mediumvioletred;}
+    100% {background-color: yellowgreen;}
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform:rotate(300deg);}
+}
+
+@keyframes lefttoright {
+    from {left:20%;}
+    to {left:80%;}
+}
+
+@keyframes lefttoright-2 {
+    0% {top:300px;}
+    50% {top:50px;}
+    100% {top:300px;}
+}
+
+@keyframes grow {
+    0% { 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid mediumvioletred;
+    }
+    
+    50% { 
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid mediumvioletred;
+    }
+    
+    100% {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid mediumvioletred;  
+    }
+}
+
+@keyframes rotation-infinite {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
+
+/************* Helper Classes ******************/
+
+.jordan {
+    background-color:yellow;
+    height:300px;
+    width:300px;
+}
+
+.west-lake {
+    position:absolute;
+    top:-50px;
+    left:10px;
+}
+
+.flexy-box {
+    display: flex;
+    align-content: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

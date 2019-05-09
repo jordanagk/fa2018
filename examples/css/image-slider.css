@@ -1,0 +1,152 @@
+/*****************************************/
+/*                  Slide Show           */
+/*****************************************/
+
+
+.slideshow {
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+#jon,
+#paul,
+#george,
+#ringo {
+    width: 500px;
+    height: 500px;
+}
+
+#jon img,
+#paul img,
+#george img,
+#ringo img {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+div.cycle-slideshow img {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#jon {
+}
+
+#paul {
+/*    background-color: yellow;*/
+}
+
+#george {
+/*    background-color: white;*/
+}
+
+#ringo {
+/*    background-color: purple;*/
+}
+
+.shoe-buttons {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.shoe-buttons #prev,
+.shoe-buttons #next {
+    font-family:"Arial", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color:blueviolet;
+    background-color:aliceblue;
+    padding:10px;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.shoe-buttons #prev:hover,
+.shoe-buttons #next:hover {
+    color:aliceblue;
+    background-color:blueviolet;
+}
+
+.shoe-buttons #prev {
+    margin-right:5px;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cycle-slideshow,
+.cycle-slideshow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cycle-slideshow {
+    width: 500px;
+    min-width: 200px;
+    margin: auto;
+    padding: 0;
+    height:400px;
+}
+
+/* anchors */
+.cycle-slideshow > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #222;
+    display: block;
+}
+
+/* images */
+.cycle-slideshow > a > img {
+    width: 100%;
+    position: static;
+    display: block;
+}
+
+/* divs */
+/*
+.cycle-slideshow > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+*/
+
+.composite-example > div {
+    background: white
+}
+
+.composite-example > div > img {
+    display: block;
+}
+
+.composite-example > div .cycle-overlay {
+    color: white;
+    background: black;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.cycle-slide p {
+    margin: 0;
+    padding: 10px
+}

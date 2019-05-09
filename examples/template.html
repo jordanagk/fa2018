@@ -1,0 +1,80 @@
+<!-- Code to be added to your html doc if wanting to use ************** Smart Scroll **************** -->
+
+
+    <!--In order to have the scroll jacking work you need the overall parent div with the class="section-wrapper"-->
+
+    <div class="section-wrapper" style="position:relative;">
+
+        <!-- Each of the full screen sections needs to be wrapped with the following -->
+        <div class="section" style="height:100vh"></div>    
+        <div class="section" style="height:100vh"></div>    
+        <div class="section" style="height:100vh"></div>    
+
+    </div>
+
+
+    <!--Include at the end of your HTML doc between the closing </body> and closing </html> tags. Make sure each of the .js files are stored in your assets folder -->
+            <script type="text/javascript" src="assets/EventEmitter.js"></script>
+            <script type="text/javascript" src="assets/lethargy.js"></script>
+            <script type="text/javascript" src="assets/smartscroll.js"></script>
+            <script>
+                var ee = new EventEmitter();
+                $.smartscroll({
+                    // class name of the parent div to make resistant scroll between sections
+                    sectionWrapperSelector: ".section-wrapper",
+                    // class name of the child div for each full screen section within the resistant scroll area
+                    sectionClass: "section",
+                    headerHash: "welcome",
+                    eventEmitter: ee,
+                    mode: "set"
+                });
+            </script>
+
+<!-- Code to be added to your html doc if wanting to use ************** Assisted Scroll **************** -->
+
+    <!-- Add the code below where ever you'd like to include a button to move you to the next section -->
+    <div class="section-down-arrow-wrap scroll-next"></div>
+
+    <!--Include at the end of your HTML doc between the closing </body> and closing </html> tags. Make sure each of the .js files are stored in your assets folder -->
+    <script type="text/javascript" src="assets/Assisted-Scroll.js"></script>
+
+
+    
+<!-- Code to be added to your html doc if wanting to use ************** Slide Show using Forward & Backward Buttons **************** -->
+
+    <!-- Add code below to your html doc if you would like your slide show to be only images -->
+            <div class="slideshow">
+        <div class="center">
+            <div class="shoe-buttons">
+                <span id="prev">&lt;&lt; </span>
+                <span id="next"> &gt;&gt;</span></div>
+        </div>
+        <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="0" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-slides="> img">
+                <img src="assets/images/nike-shoe1.png">
+                <img src="assets/images/nike-shoe2.png">
+                <img src="assets/images/nike-shoe3.png">
+                <img src="assets/images/nike-shoe4.png">
+            </div>
+        </div>
+
+
+    <!-- Add code below to your html doc if you would like your slide show to be both images and text or other assets -->
+    <div class="slideshow">
+            <div class="center">
+                <div class="shoe-buttons">
+                    <span id="prev">&lt;&lt; </span>
+                    <span id="next"> &gt;&gt;</span></div>
+            </div>
+            <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="0" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-slides="> div">
+                <div id="ringo">
+                    <img src="assets/images/nike-shoe4.png">
+                      <p>Nike's fastest, most efficient marathon shoe just keeps winning everything in sight, as Shalane Flanagan (New York), Galen Rupp (Chicago), Edna Kiplagat (Boston) and Eliud Kipchoge (London, Berlin, Breaking2), can attest. With its ultra-light, uber-responsive ZoomX foam and a carbon fiber plate that feels like it’s propelling you forward, the VaporFly 4% is ready to push you to victories both large and small.</p>
+                </div>
+                <div id="george">
+                    <img src="assets/images/nike-shoe-2.png">
+                    <p>Nike's fastest, most efficient marathon shoe just keeps winning everything in sight, as Shalane Flanagan (New York), Galen Rupp (Chicago), Edna Kiplagat (Boston) and Eliud Kipchoge (London, Berlin, Breaking2), can attest. With its ultra-light, uber-responsive ZoomX foam and a carbon fiber plate that feels like it’s propelling you forward, the VaporFly 4% is ready to push you to victories both large and small.</p>
+                </div>
+            </div>
+        </div>
+
+

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Horizontal Parallax and Assisted Scroll</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/horizontal-parallax.css">
+</head>
+
+<body>
+    <div class="flex-container" id="baseball">
+        <section class="container c1" id="page1">
+            <button class="scroll-next p2" id="p2">Click to Scroll to View</button>
+            <div class="circle cir1" data-parallax="0.9"></div>
+            <div class="circle cir2" data-parallax="0.1"></div>
+            <div class="circle cir3" data-parallax="0.1"></div>
+            <div class="circle cir4" data-parallax="0.1"></div>
+
+        </section>
+        <section class="container c2" id="page2">
+            <button class="scroll-next" id="p3">Click to Scroll to View</button>
+            <div class="circle cir1" data-parallax="-0.1"></div>
+            <div class="circle cir2" data-parallax="-1"></div>
+            <div class="circle cir3"></div>
+            <div class="circle cir4"></div>
+
+
+        </section>
+        <section class="container c3" id="page3">
+            <button class="scroll-next" id="p4">Click to Scroll to View</button>
+            <div class="circle cir1" data-circle=""></div>
+            <div class="circle cir2"></div>
+            <div class="circle cir3"></div>
+            <div class="circle cir4"></div>
+
+
+
+        </section>
+        <section class="container c4" id="page4">
+
+
+            <div class="circle cir1" data-circle=""></div>
+            <div class="circle cir2"></div>
+            <div class="circle cir3"></div>
+            <div class="circle cir4"></div>
+            <button class="scroll-next" id="back">Click to Scroll Back to Beginning</button>
+
+        </section>
+    </div>
+
+</body>
+<!--  script controlling the parallax  -->
+<script src="js/horizontal-parallax.js"></script>
+<!--  scripts that control the Horizontal assisted scrolling  -->
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/horizontal-assisted-scroll.js"></script>
+
+</html>

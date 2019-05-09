@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    height:400px;
+    width:100%;
+    background-color:azure;
+}
+
+main {
+    background-color:beige;
+    width:960px;
+    height:auto;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education {
+    width:100%;
+}
+
+.flexybox {
+    display: flex;
+    align-content: space-between;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

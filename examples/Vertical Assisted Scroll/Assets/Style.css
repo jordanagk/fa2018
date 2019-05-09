@@ -1,0 +1,434 @@
+* {
+    margin: 0px;
+  
+}
+
+.container {
+    width: 1024px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-image: url(download.jpeg);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+
+/* TITLE PAGE CONTENT AND ASSETS */
+.title_page {
+    height: 668px;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+
+.title h1{
+    font-size: 24pt;
+    font-weight:100;
+    width: 200px;
+    letter-spacing: 4px
+    
+}
+.title p{
+    font-size:12pt;
+    font-weight:100;
+    margin-top: 50px;
+}
+
+ 
+/*
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+*/
+
+
+#button_normal {
+    background-color: #d4e9f8;
+    height:50px;
+    width: 110px;
+    margin-top: 60px;
+    margin-left: 0px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+
+}
+
+
+#button_dry {
+    background-color: #d4e9f8;
+    height:50px;
+    width: 110px;
+    margin-top: -52px;
+    margin-left: 125px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#button_oily {
+    background-color: #d4e9f8;
+    height:50px;
+    width: 110px;
+    margin-top: -52px;
+    margin-left: 250px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#button_combo {
+    background-color: #d4e9f8;
+    height:50px;
+    width: 110px;
+    margin-top: -52px;
+    margin-left: 375px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+
+/* NORMAL SKIN CONTENT AND ASSETS */
+.content_normal {
+    height: 768px;
+    background-color: #d4e9f8;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.text_normal h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_normal p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.content_normal img [src ="Assets/step1_normal.png"] {
+    padding-left: 156px;
+}
+
+/*
+#button1_normal {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 475px;
+    margin-left: 206px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button2_normal { 
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 412px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button3_normal {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 618px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+*/
+
+/* DRY SKIN CONTENT AND ASSETS */
+.content_dry {
+    height: 768px;
+    background-color: #f1f1ef;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_dry h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_dry p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+
+    
+}
+
+/*
+#button1_dry {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 475px;
+    margin-left: 206px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button2_dry { 
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 412px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button3_dry {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 618px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+*/
+
+/* OILY SKIN CONTENT AND ASSETS */
+.content_oily {
+    height: 768px;
+    background-color: #fac748;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_oily h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_oily p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black; 
+}
+
+#normal_1 img{
+    padding-left: 61px;
+    margin-top: 125px;
+}
+
+#normal_2 img{
+    padding-left: 237px;
+    margin-top: -125px;
+}
+
+#normal_3 img{
+    padding-left: 413px;
+    margin-top: -220px;
+}
+/*
+#button1_oily {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 475px;
+    margin-left: 206px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button2_oily { 
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 412px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button3_oily {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 618px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+*/
+
+/* COMBO SKIN CONTENT AND ASSETS */
+.content_combo {
+    height: 768px;
+    background-color: #cadfec;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_combo h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_combo p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+
+    
+}
+/*
+#button1_combo {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 475px;
+    margin-left: 206px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button2_combo { 
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 412px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#button3_combo {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 618px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+*/
+/* COMPLETED PAGE CONTENT AND ASSETS */
+.content_completed {
+    height: 245px;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.message p {
+    font-weight: 100;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 50px;
+   
+}
+#button1_restart {
+    background-color: #d4e9f8;
+    height:50px;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 132px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+
+}
+
+#button2_new { 
+    background-color: #d4e9f8;
+    height:50px;
+    width: 160px;
+    margin-top: -52px;
+    margin-left: 332px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}

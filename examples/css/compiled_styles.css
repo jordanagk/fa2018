@@ -1,0 +1,295 @@
+
+/*****************************************/
+/*          Example Styles               */
+/*****************************************/
+
+
+.footer,
+.header,
+.section {
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.footer > div,
+.section > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.header > div {
+    vertical-align: middle;
+    text-align:center;
+}
+
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(/images/Voting-hand-bitmap_gritty-3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: 700
+}
+
+ul {
+    padding-left: 0
+}
+
+li {
+    list-style: none
+}
+
+.header {
+    height: 700px;
+}
+
+.header .first_paragraph {
+    display:block;
+    width:100%;
+}
+
+.footer {
+    height: 1200px
+}
+
+.section-down-arrow-wrap {
+    cursor: pointer;
+    height: 50px;
+    width:  50px;
+    background-image: url(/images/next-button-w.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Styling for Each of the individual sections. Each section is called not by a class or id name but by using the nth-child pseudo class properties. */
+
+.section:nth-child(9n+1) {
+    height: 100px;
+    background-color: rgba(255, 112, 143, .6);
+}
+
+.section:nth-child(9n+2) {
+    height: 1000px;
+    background-color: rgba(232, 157, 93, .6);
+}
+
+.section:nth-child(9n+3) {
+    height: 500px;
+    background-color: rgba(255, 227, 62, .6);
+}
+
+.section:nth-child(9n+4) {
+    height: 900px;
+    background-color: rgba(122, 232, 86, .6);
+}
+
+.section:nth-child(9n+5) {
+    height: 1500px;
+    background-color: rgba(122, 255, 230, 0.6);
+}
+
+.section:nth-child(9n+6) {
+    height: 100px;
+    background-color: rgba(110, 116, 245, 0.6);
+}
+
+.section:nth-child(9n+7) {
+    background-color:rgba(127, 255, 212, 0.6);
+}
+
+.section:nth-child(9n+8) {
+    background-color:rgba(143, 188, 143, 0.6);
+}
+
+.section:nth-child(9n) {
+    background-color:rgba(255, 218, 185, 0.6);
+}
+
+
+
+/* Color overlays are done by using a RGBA value instead of a hex code or normal RGB value. The A stands for opacity and is a percent of 1. */
+
+
+
+
+
+/*****************************************/
+/*                  Slide Show           */
+/*****************************************/
+
+
+.slideshow {
+    overflow-x: hidden;
+    overflow-y:hidden;
+    display: block;
+}
+
+#jon,
+#paul,
+#george,
+#ringo {
+    width: 500px;
+    height: 500px;
+}
+
+#jon img,
+#paul img,
+#george img,
+#ringo img {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
+#jon {
+}
+
+#paul {
+/*    background-color: yellow;*/
+}
+
+#george {
+/*    background-color: white;*/
+}
+
+#ringo {
+/*    background-color: purple;*/
+}
+
+.shoe-buttons {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.shoe-buttons #prev,
+.shoe-buttons #next {
+    font-family:"Arial", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color:blueviolet;
+    background-color:aliceblue;
+    padding:10px;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.shoe-buttons #prev:hover,
+.shoe-buttons #next:hover {
+    color:aliceblue;
+    background-color:blueviolet;
+}
+
+.shoe-buttons #prev {
+    margin-right:5px;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cycle-slideshow,
+.cycle-slideshow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cycle-slideshow {
+    width: 500px;
+    min-width: 200px;
+    margin: auto;
+    padding: 0;
+    height:400px;
+}
+
+/* anchors */
+.cycle-slideshow > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #222;
+    display: block;
+}
+
+/* images */
+.cycle-slideshow > a > img {
+    width: 100%;
+    position: static;
+    display: block;
+}
+
+/* divs */
+/*
+.cycle-slideshow > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+*/
+
+.composite-example > div {
+    background: white
+}
+
+.composite-example > div > img {
+    display: block;
+}
+
+.composite-example > div .cycle-overlay {
+    color: white;
+    background: black;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.cycle-slide p {
+    margin: 0;
+    padding: 10px
+}
+
+
+
+
+/*****************************************/
+/*            Smart Scroll CSS           */
+/*****************************************/
+
+/* line 1, ../sass/smartscroll.scss */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

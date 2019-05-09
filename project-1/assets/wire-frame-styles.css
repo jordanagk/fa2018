@@ -1,0 +1,71 @@
+body {
+    margin:0;
+}
+
+.container {
+    background-color:aqua;
+    width:491px;
+    height:1024px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header,
+.letter-container,
+.sample-set,
+.body {
+    margin-bottom:36px;
+}
+
+
+.header {
+    background-color:#000;
+    height:60px;
+}
+
+.letter-container {
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+}
+
+.large-letter {
+    background-color:#e6e7e8;
+    width:349.2px;
+    height:448.8px;
+    margin-right:13px;
+}
+
+.button {
+    background-color:chartreuse;
+    width:65.701px;
+    height:65.701px;
+}
+
+.sample-set {
+    background-color:coral;
+    width:491px;
+    height:58px;
+}
+
+.body {
+    background-color:crimson;
+    width:491px;
+    height:114px;
+}
+
+.photo-title {
+    background-color:darkgreen;
+    width:200px;
+    height:110px;
+    float:left;
+    
+    margin-right:77px;
+}
+
+.sources {
+    background-color:cornflowerblue;
+    width:214px;
+    height:105px;
+    float:left;
+}

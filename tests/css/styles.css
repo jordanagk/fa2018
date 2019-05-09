@@ -1,0 +1,132 @@
+.rotated {
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+/* Tea Cup Rotation Animation */
+
+
+
+/* Information Pour Animations */
+
+.animation-info {
+    animation: green-info 2.5s ease;
+}
+
+
+@keyframes green-info {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
+.invisible {
+    opacity: 0 !important;
+}
+
+.tea-cups {
+    position: relative;
+}
+
+#one-cup,
+#two-cup {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#one-cup {
+    z-index:2;
+}
+
+#two-cup {
+    z-index:1;
+    opacity:0;
+}
+
+.green-tea-information-container {
+    /*    height: 280px;*/
+    width: 370px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 130px;
+    left: 420px;
+    padding: 20px;
+    opacity: 0;
+    z-index: 3;
+}
+
+.other {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -moz-transform: rotate(90deg);
+    /* Firefox */
+    -webkit-transform: rotate(90deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(90deg);
+    /* Opera */
+}
+
+
+.transform {
+  -webkit-transition: all 2s ease;  
+  -moz-transition: all 2s ease;  
+  -o-transition: all 2s ease;  
+  -ms-transition: all 2s ease;  
+  transition: all 2s ease;
+}
+
+
+
+
+.animation {
+    animation: rotation 2.5s infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+}
+
+    100% {
+        transform: rotate(360deg);
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    /*
+.rotate-back-animation {
+    animation: rotate-back 2.5s ease;
+    transition: all 2.5s ease;
+}
+*/
+
+/*@keyframes rotate-back {*/
+/*    0% {*/
+/*        transform: rotate(45deg);*/
+        /*        opacity: .1;*/
+/*    }*/
+
+/*    100% {*/
+/*        transform: rotate(0deg);*/
+        /*        opacity: 1;*/
+/*    }*/
+/*}*/

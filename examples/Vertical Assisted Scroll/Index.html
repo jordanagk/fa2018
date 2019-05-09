@@ -1,0 +1,144 @@
+<! DOCTYPE html>
+<head>
+    <link rel = "stylesheet" href = "Assets/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<html>
+    <body>
+    <div class = "container">
+    
+       <!-- <button onclick="myFunction()">Try it</button>
+        <div id="myDIV">This is my DIV element.</div>
+        
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                }
+        }
+        </script>
+        -->
+        
+        <div class = "title_page" id = "page1">
+            <div class = "title">
+                <h1>YOUR PERSONALIZED SKINCARE ROUTINE</h1>
+                <p>Choose your skin type below.</p>
+            </div>
+    
+            
+            <button id="button_normal">NORMAL
+            </button>
+            
+            <div id = "button_dry">
+                <p>DRY</p>  
+            </div>
+            
+            <div id = "button_oily">
+                <p>OILY</p>  
+            </div>
+            
+            <div id = "button_combo">
+                <p>COMBO</p>  
+            </div>
+           
+        </div>
+            
+        
+        <div class ="content">
+            
+            <div class = "content_normal" id = "page2">
+                <div class = "text_normal">
+                    <h2>NORMAL</h2>
+                    <p>Donec posuere dictum mauris, nec iaculis dui imperdiet a. Suspendisse semper malesuada dui et pellentesque. Suspendisse id purus lacinia, lacinia lorem et, gravida purus. Vestibulum quis tempus purus. Proin magna quam, blandit condimentum ipsum at, pharetra fermentum quam. Nullam tincidunt tellus et nisl accumsan rutrum. Vestibulum vitae metus elementum mauris porta ultricies. Etiam a maximus felis. Curabitur facilisis ultrices quam, pellentesque lobortis ligula dapibus in. </p>
+                </div>
+                
+                <div id = "normal_1">
+                    <img src = "Assets/step1_normal.png">
+                </div>
+                
+                <div id = "normal_2">
+                    <img src = "Assets/step2_normal.png">
+                </div>
+                    
+                <div id = "normal_3">
+                    <img src = "Assets/step3_normal.png">
+                </div>
+                
+                
+                <!-- 
+                <div id = "button1_normal">1</div>
+                <div id = "button2_normal">2</div>
+                <div id = "button3_normal">3</div>
+                 -->
+            </div>
+            
+            <div class = "content_dry" id = "page3"> 
+                <div class = "text_dry">
+                    <h2>Dry Skin</h2>
+                    <p>Donec posuere dictum mauris, nec iaculis dui imperdiet a. Suspendisse semper malesuada dui et pellentesque. Suspendisse id purus lacinia, lacinia lorem et, gravida purus. Vestibulum quis tempus purus. Proin magna quam, blandit condimentum ipsum at, pharetra fermentum quam. Nullam tincidunt tellus et nisl accumsan rutrum. Vestibulum vitae metus elementum mauris porta ultricies. Etiam a maximus felis. Curabitur facilisis ultrices quam, pellentesque lobortis ligula dapibus in. </p>
+                </div>
+                <img src = "step1_dry">
+                <img src = "step2_dry">
+                <img src = "step3_dry">
+                <!--
+                <div id = "button1_dry">1</div>
+                <div id = "button2_dry">2</div>
+                <div id = "button3_dry">3</div>
+                -->
+            </div>
+            
+            <div class = "content_oily" id = "page4">
+                <div class = "text_oily">
+                    <h2>Oily Skin</h2>
+                    <p>Donec posuere dictum mauris, nec iaculis dui imperdiet a. Suspendisse semper malesuada dui et pellentesque. Suspendisse id purus lacinia, lacinia lorem et, gravida purus. Vestibulum quis tempus purus. Proin magna quam, blandit condimentum ipsum at, pharetra fermentum quam. Nullam tincidunt tellus et nisl accumsan rutrum. Vestibulum vitae metus elementum mauris porta ultricies. Etiam a maximus felis. Curabitur facilisis ultrices quam, pellentesque lobortis ligula dapibus in. </p>
+                </div>
+                <img src = "step1_oily">
+                <img src = "step2_oily">
+                <img src = "step3_oily">
+                <!--
+                <div id = "button1_oily">1</div>
+                <div id = "button2_oily">2</div>
+                <div id = "button3_oily">3</div>
+                -->
+                
+            </div>
+            
+            <div class = "content_combo" id = "page5">
+                <div class = "text_combo">
+                    <h2>Combination Skin</h2>
+                    <p>Donec posuere dictum mauris, nec iaculis dui imperdiet a. Suspendisse semper malesuada dui et pellentesque. Suspendisse id purus lacinia, lacinia lorem et, gravida purus. Vestibulum quis tempus purus. Proin magna quam, blandit condimentum ipsum at, pharetra fermentum quam. Nullam tincidunt tellus et nisl accumsan rutrum. Vestibulum vitae metus elementum mauris porta ultricies. Etiam a maximus felis. Curabitur facilisis ultrices quam, pellentesque lobortis ligula dapibus in. </p>
+                </div>
+                <img src = "step1_combo">
+                <img src = "step2_combo">
+                <img src = "step3_combo">
+                <!--
+                <div id = "button1_combo">1</div>
+                <div id = "button2_combo">2</div>
+                <div id = "button3_combo">3</div>
+                -->
+            </div>
+        </div>
+        
+        <div class="content_completed" id="page6">
+            <div class = "message">
+                <p>You have completed all of the steps in your personalized skincare routine.</p>
+            </div>
+            <div id = "button1_restart">Begin Again</div>
+            <div id = "button2_new">Try A New Skin Type</div>
+        
+        
+        </div>
+        
+    </div>
+    
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/scrollTo.custom2.js"></script>
+    <script src="localscroll.js"></script>
+</html>

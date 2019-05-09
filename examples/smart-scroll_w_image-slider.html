@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://d4nyll.github.io/smartscroll/#welcome -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/compiled_styles.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <title>Smart Scroll with Image Slider</title>
+</head>
+
+<body>
+    <div class="header top">
+        <div>
+            <h1>smartscroll</h1>
+            <p>A tiny (1378b minfied + gzipped) jQuery plugin for scrolljacking and auto-hashing</p>
+            <p>See it on <a href="https://github.com/d4nyll/smartscroll" target="_blank">GitHub</a>, or see some <a href="http://blog.danyll.com/smartscroll-jquery-scrolljacking-plugin/" target="_blank">comparisons</a></p>
+            <p>Try out other examples!</p>
+            <ul>
+                <li><a href="http://d4nyll.github.io/smartscroll/">Standard</a></li>
+                <li><a href="http://d4nyll.github.io/smartscroll/permalink/#c">Permalink</a></li>
+                <li><a href="http://d4nyll.github.io/smartscroll/different-heights/">Different Heights</a></li>
+                <li><a href="http://d4nyll.github.io/smartscroll/hybrid-scroll/">Hybrid Scroll</a></li>
+                <li><a href="http://d4nyll.github.io/smartscroll/auto-hash/">Auto-Hash</a></li>
+                <li><a href="http://d4nyll.github.io/smartscroll/keep-history/">Keep History</a></li>
+                <li><a href="http://d4nyll.github.io/smartscroll/responsive/">Responsive</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="first_paragraph">
+            <p>This section is not inside the section wrapper, so normal scrolling here!</p>
+        </div>
+    </div>
+    <!-- Sections Begin -->
+    <div class="section-wrapper" style="position: relative;">
+        <div class="section" data-hash="slideshow" style="height:100vh;">
+            <!-- Slide Show -->
+            <div class="slideshow">
+                <div class="center">
+                    <div class="shoe-buttons">
+                        <span id="prev">&lt;&lt; </span>
+                        <span id="next"> &gt;&gt;</span></div>
+                </div>
+                <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="0" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-slides="> div">
+                    <div id="jon">
+                        <img src="images/nike-shoe1.png">
+                    </div>
+                    <div id="paul">
+                        <img src="images/nike-shoe2.png">
+                    </div>
+                    <div id="george">
+                        <img src="images/nike-shoe3.png">
+                    </div>
+                    <div id="ringo">
+                        <img src="images/nike-shoe4.png">
+                    </div>
+                </div>
+            </div>
+            <!-- end of Slide Show -->
+        </div>
+        <div class="section" data-hash="scrollbar" style="height: 100vh;">
+            <div>
+                <h1>Compatible with scrollbar</h1>
+                <p>Try scrolling with the mouse wheel as well as the scrollbar, it works as you expect!</p>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="permalinks" style="height: 100vh;">
+            <div>
+                <h1>Permalink</h1>
+                <p>You can bookmark a particular section, and it will stay there when you return!</p>
+                <a href="http://d4nyll.github.io/smartscroll/permalink/#c">Demo</a>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="different-heights" style="height: 100vh;">
+            <div>
+                <h1>Different Heights</h1>
+                <p>Normally, your sections will have to be 100% of the viewport (like it is now) for it to work. With smartscroll, the section can all be of different heights!</p>
+                <a href="http://d4nyll.github.io/smartscroll/different-heights/">Demo</a>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="hybrid-scroll" style="height: 100vh;">
+            <div>
+                <h1>Hybrid Scroll</h1>
+                <p>You can scroll normally in the white areas above, and also by sections in these coloured areas!</p>
+                <a href="http://d4nyll.github.io/smartscroll/hybrid-scroll/">Demo</a>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="auto-hash" style="height: 100vh;">
+            <div>
+                <h1>Auto-Hash</h1>
+                <p>Noticed when you scrolled down, the URL's hash changes automatically? That's the auto-hash feature! You can enable it just by itself!</p>
+                <a href="http://d4nyll.github.io/smartscroll/auto-hash/">Demo</a>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="keep-history" style="height: 100vh;">
+            <div>
+                <h1>Keep History</h1>
+                <p>By default, scrolling through different sections does not add to your history, but if you like that feature, you can turn it on too!</p>
+                <a href="http://d4nyll.github.io/smartscroll/keep-history/">Demo</a>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="responsive">
+            <div>
+                <!--
+				<h1>Responsive</h1>
+				<p>You can disable section scrolling for windows below a certain width. Do not confuse this with touch devices, where scrolljacking is disabled by design.</p>
+-->
+                <a href="http://d4nyll.github.io/smartscroll/responsive/">Demo</a>
+                <div class="section-down-arrow-wrap scroll-next"></div>
+            </div>
+        </div>
+        <div class="section" data-hash="scrollbar" style="height: 100vh;">
+            <div>
+                <h1>Compatible with scrollbar</h1>
+                <p>Try scrolling with the mouse wheel as well as the scrollbar, it works as you expect!</p>
+                <div class="section-down-arrow-wrap button-top"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/EventEmitter.js"></script>
+    <script type="text/javascript" src="js/lethargy.js"></script>
+    <script type="text/javascript" src="js/smartscroll.js"></script>
+    <script>
+        var ee = new EventEmitter();
+        $.smartscroll({
+            sectionWrapperSelector: ".section-wrapper",
+            sectionClass: "section",
+//            headerHash: null,
+            eventEmitter: ee,
+            mode: "set"
+        });
+
+    </script>
+    <script type="text/javascript" src="js/assisted-scroll.js"></script>
+    <script type="text/javascript" src="js/cycle2-edit.js"></script>
+
+
+
+
+</body>
+
+</html>
